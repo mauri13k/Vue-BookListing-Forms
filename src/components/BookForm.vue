@@ -24,8 +24,11 @@
       
     </div>
     <div>
-    <input v-model="bookData.ownership" type="radio" value="borrowed" ><label for="borrowed ">borrowed</label></input>
-    <input v-model="bookData.ownership" type="radio" value="bought" ><label for="bought">bought</label></input>
+    <label for="borrowed">borrowed</label>
+    <input v-model="bookData.ownership" type="radio" value="borrowed" />
+    <label for="bought">bought</label>
+    <input v-model="bookData.ownership" type="radio" value="bought" />
+    
     </div>
     <button type="submit" name="button">Add Book</button>
   </form>
