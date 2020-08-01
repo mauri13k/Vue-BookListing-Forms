@@ -20,7 +20,7 @@
       placeholder="Book Author"
     />
     <div>
-      <label for="Finished Reading">Finished Reading</label>
+      <label for="finishedReading">Finished Reading</label>
       <input v-model="bookData.finishedReading" type="checkbox" />
     </div>
     <div>
