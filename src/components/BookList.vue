@@ -3,8 +3,7 @@
     <h1>{{ title }}</h1>
     <ul>
       <book-item v-for="book in books" :key="book.id" :book="book">
-        <span v-if="book.finishedReading">Read</span>
-        <span v-else>Not Read</span>
+      
       </book-item>
     </ul>
     <br />
